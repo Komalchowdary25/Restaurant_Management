@@ -1,4 +1,4 @@
-Restaurant Reservation Management System
+# Restaurant Reservation Management System
 
 A full-stack web application built using Python, Django, HTML, CSS, and SQLite that enables customers to reserve tables online and allows administrators to manage restaurant reservations efficiently through role-based access control.
 
@@ -19,7 +19,6 @@ cd Restaurant_Management
 2️)Create & Activate Virtual Environment
 python -m venv myenv
 myenv\Scripts\activate   # Windows
-# source myenv/bin/activate   # Mac/Linux
 3️)Install Dependencies
 pip install -r requirements.txt
 4️)Apply Migrations
@@ -39,6 +38,9 @@ Password: admin@565
 👤 Customer User
 Username: user1
 Password: user@565
+
+Username: user2
+Password:user@565
 
 =>User Roles & Access Control:-
 The system supports two roles using Django’s authentication and authorization system:
